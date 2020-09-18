@@ -1,25 +1,38 @@
 {
-    "name": "hux-blog",
-    "title": "Rever's Blog",
-    "author": "Hux <Rever@gmail.com>",
-    "version": "1.8.2",
-    "homepage": "http://rever207.github.io",
+    "title": "Clean Blog Jekyll",
+    "name": "startbootstrap-clean-blog-jekyll",
+    "version": "4.0.10",
+    "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/themes/clean-blog-jekyll",
+    "bugs": {
+        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Rever207/rever207.github.io"
+        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git"
     },
-    "bugs": "https://github.com/Rever207/rever207.github.io/issues",
+    "dependencies": {
+        "bootstrap": "4.5.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.5.1",
+        "startbootstrap-clean-blog": "5.0.9"
+    },
     "devDependencies": {
-        "grunt": "^1.1.0",
-        "grunt-banner": "~0.2.3",
-        "grunt-contrib-less": "^2.0.0",
-        "grunt-contrib-uglify": "^4.0.1",
-        "grunt-contrib-watch": "^1.1.0"
-    },
-    "scripts": {
-        "start": "bundle exec jekyll serve -w -l --host 0.0.0.0",
-        "dev": "grunt watch & npm run start",
-        "boil": "git push boilerplate boilerplate:master",
-        "push": "git push origin master --tag"
+        "browser-sync": "2.26.7",
+        "gulp": "4.0.2"
     }
 }
