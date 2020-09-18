@@ -1,8 +1,8 @@
-<header id="masthead">
-  <div class="inner-wrap">
-    <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
+<header class="header">
+  <img class="logo" src="{{ site.baseurl }}/static/img/logo.jpg" />
+  <nav class="menu">
+    {% for menu in site.menu -%}
+    <a href="{{ site.baseurl }}{{ menu.url }}" class="hover-underline">{{ menu.title }}</a>
+    {% endfor -%}
+  </nav>
+</header>

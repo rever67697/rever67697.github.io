@@ -1,9 +1,5 @@
-# Skinny Bones Gemfile
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.4.0'
-gem 'jekyll-sitemap', '~> 0.6.1'
-gem 'sass'
-gem 'bourbon'
-gem 'neat'
-gem 'octopress', '~> 3.0.0.rc.12'
+gem 'jekyll',           '3.8.5'
+gem 'rouge',            '3.11.0'
+gem 'wdm',              '>= 0.1.0'
