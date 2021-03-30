@@ -10,7 +10,7 @@
 
 ## 感谢
 
-[JetBrains](https://www.jetbrains.com/?from=tmaize-blog) 免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)
+[JetBrains](https://www.jetbrains.com) 免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com)
 
 # 本地运行
 
